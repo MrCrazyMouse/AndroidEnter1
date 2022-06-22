@@ -1,4 +1,4 @@
-package com.example.androidenter;
+package com.example.androidentr;
 
 import androidx.appcompat.app.AppCompatActivity;
 

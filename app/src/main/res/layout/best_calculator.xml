@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/text_res"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        android:fontFamily="monospace"
+        android:background="#FFFFFF"
+        android:text="Hello"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textDirection="rtl"
+        android:gravity="right"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+
+        <Button
+            android:id="@+id/key_1"
+            android:layout_width="101dp"
+            android:layout_height="103dp"
+            android:background="@drawable/button_states"
+            android:text="C"
+            android:textSize="22sp"
+            />
+
+        <Button
+            android:id="@+id/key_2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_states"
+            android:text="1"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/key_3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_states"
+            android:text="%"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/key_4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_states"
+            android:text="/"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+
+        <Button
+            android:id="@+id/key_5"
+            android:layout_width="101dp"
+            android:layout_height="103dp"
+            android:background="@drawable/button_states"
+            android:text="7"
+            android:textSize="22sp"
+            />
+
+        <Button
+            android:id="@+id/key_6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_states"
+            android:text="8"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/key_7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_states"
+            android:text="9"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/key_8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_states"
+            android:text="x"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+
+        <Button
+            android:id="@+id/key_9"
+            android:layout_width="101dp"
+            android:layout_height="103dp"
+            android:background="@drawable/button_states"
+            android:text="4"
+            android:textSize="22sp"
+            />
+
+        <Button
+            android:id="@+id/key_10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_states"
+            android:text="5"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/key_11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_states"
+            android:text="6"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/key_12"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_states"
+            android:text="-"
+            android:textSize="22sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+
+        <Button
+            android:id="@+id/key_13"
+            android:layout_width="101dp"
+            android:layout_height="103dp"
+            android:background="@drawable/button_states"
+            android:text="1"
+            android:textSize="22sp"
+            />
+
+        <Button
+            android:id="@+id/key_14"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_states"
+            android:text="2"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/key_15"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_states"
+            android:text="3"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/key_16"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_states"
+            android:text="+"
+            android:textSize="22sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="2dp">
+
+
+        <Button
+            android:id="@+id/key_17"
+            android:layout_width="101dp"
+            android:layout_height="103dp"
+            android:background="@drawable/button_states"
+            android:text=","
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/key_18"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/button_states"
+            android:text="0"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/key_19"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="2"
+            android:background="@drawable/button_states"
+            android:text="="
+            android:textSize="22sp"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
