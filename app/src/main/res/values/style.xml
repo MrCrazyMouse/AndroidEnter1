@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NumberBut">
+        <item name="backgroundTint">@color/white</item>
+    </style>
+
+    <style name="OperatorBut">
+        <item name="backgroundTint">@color/white</item>
+        <item name="textColorAlertDialogListItem">@color/orange1</item>
+    </style>
+
+    <style name="ResultBut">
+        <item name="backgroundTint">@color/orange1</item>
+    </style>
+</resources>
